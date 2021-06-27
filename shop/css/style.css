@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body { 
+	font-family: 'Montserrat', sans-serif; 
+   opacity: 0;
+   transition: opacity .5s;
+}
+
+.navbar-brand {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.08em;
+	color: #197824;
+}
+
+.nav-link {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.08em;
+	color: #000;
+}
+
+.active {
+	color: #197824;
+	border-bottom: 4px solid #197824;
+}
+
+/* header end */ 
+
+.scale {
+	cursor: pointer;
+	transition: 1s;
+}
+
+.scale:hover {
+	transform: scale(1.1);
+}
+
+.market {
+	display: flex;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.market-1 {
+	margin-top: 175px;
+}
+
+.block {
+	height: 167px;
+	width: 167px;
+	background: url(../img/works/3.jpg);
+    background-position: center;
+    background-size: cover;
+	border: 1px solid #197824;
+	box-sizing: border-box;
+	border-radius: 11px;
+	color: white;
+}
+
+.title {
+	margin-top: 115px;
+	margin-left: 8px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	margin-bottom: 0;
+}
+
+.avatar-price {
+	font-weight: 500;
+	margin-left: 8px;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	margin-bottom: 5px;
+}
+
+.block-2 {
+	height: 167px;
+	width: 288px;
+	background: url(../img/works/2.jpg);
+    background-position: center;
+    background-size: cover;
+	border: 1px solid #197824;
+	box-sizing: border-box;
+	border-radius: 11px;
+	color: white;
+}
+
+.title-2 {
+	margin-top: 115px;
+	margin-left: 8px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	margin-bottom: 0;
+}
+
+.avatar-price-2 {
+	font-weight: 500;
+	margin-left: 8px;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	margin-bottom: 5px;
+}
+
+
+/* modal window */
+
+.modal-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 0.08em;
+}
+
+.modal-window-img {
+	Width: 275px;
+	Height: 275px;
+	border: 1px solid rgba(25, 120, 36, 0.23);
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 28px;
+	line-height: 34px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.08em;	
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-footer {
+	border: none;
+}
+
+.modal-price {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.08em;
+	width: 192px;
+	height: 46px;
+	margin-top: 35px;
+}
+
+.btn-green {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.08em;
+	width: 192px;
+	height: 46px;	
+	background: #379F79;
+	border-radius: 2px;
+	color: #fff;
+}

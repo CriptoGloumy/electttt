@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ElectDrawing</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="shop/css/style.css">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#" style="color: #197824;">ELECT</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav m-auto text-center">
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html">Главная</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Портфолио</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" style="color: #197824;" aria-current="page" href="shop.html">Магазин</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="help.html">Помощь</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>	
+</header>
+<section>
+	<div class="container">
+		<div class="market market-1">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+					<div class="block scale">
+						<h4 class="title">999₽</h4>
+						<span class="avatar-price">Аватарка</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="block scale">
+						<h4 class="title">999₽</h4>
+						<span class="avatar-price">Аватарка</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="block-2 scale">
+						<h4 class="title-2">999₽</h4>
+						<span class="avatar-price-2">Аватарка</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="market">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-xl">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					        <div class="container">
+							    <div class="row">
+							      <div class="col-xl-4 col-md-6 col-sm-12"><img src="img/works/3.jpg" class="modal-window-img" alt="3"></div>
+							      <div class="col-xl-8 col-md-6 col-sm-12 ms-auto">
+							      	<p class="modal-title">Аватар</p>
+							      	<h6>Формат:</h5>
+							      	<ul>
+							      		<li>
+							      			По плечи - 1₽
+							      		</li>
+							      		<li>
+							      			По пояс - 1₽
+							      	   </li>
+							      		<li>
+							      			Полный рост - 1₽
+							      		</li>
+							      	</ul>
+							      	<p>Внимание! При оплате вы должны указать вариант и его цену а так же ваш ID ВК. Иначе вы можете просто потерять свои деньги!</p>
+							      </div>
+							    </div>
+					        </div>
+					      </div>
+					      <div class="modal-footer">
+					        <span class="modal-price">999 РУБЛЕЙ</span><span><button type="button" class="btn btn-green">Купить</button></span>
+					      </div>
+					    </div>
+					  </div>
+					</div>				
+					<div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="block scale">
+						<h4 class="title">999₽</h4>
+						<span class="avatar-price">Аватарка</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="block scale">
+						<h4 class="title">999₽</h4>
+						<span class="avatar-price">Аватарка</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="block-2 scale">
+						<h4 class="title-2">999₽</h4>
+						<span class="avatar-price-2">Аватарка</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() { 
+        window.location.href = href
+    }, 500)
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
+</script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
